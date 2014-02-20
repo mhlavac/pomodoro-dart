@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="main.dart" type="application/dart"></script>
+    <link href="bower_components/bootstrap-sass/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro dart</h1>
+        <button id="configuration" class="btn btn-default pull-right" href="">Configuration</button>
+        <div class="clearfix"></div>
+        <div id="configuration-window">
+            <div><label>Pomodoro length: <input type="text" /></label></div>
+            <div><label>Short pause length: <input type="text" /></label></div>
+            <div><label>Long pause length: <input type="text" /></label></div>
+        </div>
+
+        <div id="timer">0:25:00</div>
+        <button id="start" class="btn btn-primary" href="">Start pomodoro</button>
+        <button id="stop" class="btn btn-danger" href="">End pomodoro</button>
+
+        <section id="log" class="well text-left text-success">
+        </section>
+    </div>
+</body>
+</html>
